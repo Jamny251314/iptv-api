@@ -221,6 +221,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   publish-release:
+    if: false
     needs: generate
     runs-on: ubuntu-latest
     timeout-minutes: 15
